@@ -55,7 +55,7 @@ After you have set up GPC, go back to your app.globus.org window and click on th
 
 In the new panel that opens up, click on the *Collections* section and navigate to *Your Collections*. Select your local device from the list:
   
-  ![](/img/unityInstructions/globusYourConnections.png)
+  ![](/img/unityInstructions/globusYourCollections.png)
 
 Your home page should look like so with the lab directory on the left and your personal computer directory on the right:
   
