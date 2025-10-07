@@ -13,7 +13,21 @@ weight:
 
 <!--more-->
 
-Please note that in order to access the data stored on Unity, you'll need to request affiliate access to URI and be added to the lab's directory. Talk to Joanna or Emma for help with these steps!
+Please note that in order to access the data stored on Unity, you'll need to request affiliate access to URI and be added to the lab's directory. Talk to Joanna for help with these steps!
+
+#### What is Unity? What is Globus?
+
+URI’s Unity system is their *High Performance Computing* (HPC) cluster.	It’s a network of many computers (“nodes”) working together.
+
+HPC refers to powerful servers or clusters designed for large-scale data analysis — like EEG or ERP processing — that would overwhelm a regular laptop.
+
+Researchers use it to run jobs, store big datasets, and transfer files efficiently.
+
+Each researcher gets a user account and a workspace directory (/work/pi_joanna_morris_uri_edu/…).
+
+When you use Globus, you’re transferring files to and from the storage area of that HPC system.
+
+In sum, Unity is URI’s HPC cluster, and Globus is the web-based tool we use for transferring files to/from Unity’s storage.
 
 #### General Access
 
@@ -110,3 +124,12 @@ Sometime synced files still won't upload (boo Microsoft). In that case, your bes
 6.  Download the problematic file to your desktop
 
 7.  Try reuploading the problematic file from your desktop to Unity via Globus.
+
+#### SSH
+
+Your Globus access lets you move files if the server’s permissions allow it,
+but sometimes you may need SSH access to Unity to fix or verify those permissions directly.
+
+SSH stands for **Secure SHell** and it is a secure way to connect to another computer remotely and type commands there as if you were sitting in front of it.  You can think of it like a remote command line; you use it from your own computer’s terminal (e.g.,Terminal on MacOS, PowerShell on Windows). It encrypts everything, so your password and data stay secure while traveling over the internet.
+
+Once connected, you can type commands to: browse files (`ls`), move around directories (`cd`), copy files (`cp` or `scp`), or run programs and analysis scripts.
